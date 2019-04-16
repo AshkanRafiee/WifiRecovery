@@ -17,7 +17,7 @@ goto :recovery
 
 :recovery
 echo .........................................................................
-set /P SSID=Enter Desired Wifi Name to Recover Password(Case Sensitive!): 
-netsh wlan show profile "%SSID%" key=clear | findstr "Key Content not found"
+set /P SSID=Enter Desired Wifi Name to Recover Password!: 
+netsh wlan show profile "%SSID%" key=clear | findstr "Key Content found"
 pause
 goto :wifilist
