@@ -3,7 +3,7 @@ Recover Forgotten Wifi Passwords!
 
 ## Installation
 
-> Simply donwload The Script! 
+> Simply download The Script! 
 
 ## Usage
 
